@@ -1,0 +1,20 @@
+{
+  "name": "crossplatform-pdf-printer",
+  "version": "1.0.0",
+  "description": "NodeJS library to send pdf files to printer on Winwdows and UNIX.",
+  "keywords": [
+    "crossplatform",
+    "UNIX",
+    "windows",
+    "printer",
+    "print",
+    "pdf"
+  ],
+  "license": "MIT",
+  "author": "zatmonhp@yandex.ru",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

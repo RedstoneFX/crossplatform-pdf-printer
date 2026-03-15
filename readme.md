@@ -10,7 +10,7 @@ This project depends on these Node.JS libraries:
 
 And for **UNIX**, you additionaly need to install this packages:
 - *cups-client* (install via `sudo apt-get install cups-client`)
-- *cups* (install via `sudo apt-get install cups)
+- *cups* (install via `sudo apt-get install cups`)
 
 ## FEATURES
 ```js
@@ -51,6 +51,7 @@ class Printer {
 }
 ```
 ## TODO
+- improve README.md
 - test on UNIX based OS
 - implement advanced status checking of specific document
 

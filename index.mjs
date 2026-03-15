@@ -5,6 +5,7 @@ import { WinPrinterDriver } from "./src/WinPrint.mjs";
 var isWin = process.platform === "win32";
 
 /**
+ * Creates "Printer" object that allows access to printer
  * @param {string} printerName 
  * @returns {Promise <Printer>}
  */
@@ -17,6 +18,7 @@ export async function getPrinter(printerName) {
 }
 
 /**
+ * Returns names of all installed printers
  * @returns {Promise<string[]>}
  */
 export async function getAvaliablePrinters() {

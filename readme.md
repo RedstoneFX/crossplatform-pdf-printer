@@ -12,6 +12,45 @@ And for **UNIX**, you additionaly need to install this packages:
 - *cups-client* (install via `sudo apt-get install cups-client`)
 - *cups* (install via `sudo apt-get install cups)
 
+## FEATURES
+```js
+/**
+ * Creates "Printer" object that allows access to printer
+ * @param {string} printerName
+ * @returns {Promise <Printer>}
+ */
+async function getPrinter(printerName);
+
+/**
+ * Returns names of all installed printers
+ * @returns {Promise<string[]>}
+ */
+async function getAvaliablePrinters();
+```
+
+## Printer METHODS
+```js 
+class Printer {
+    /**
+     * Returns name of this printer
+     * @returns {string}
+     */
+    getName();
+
+    /**
+     * Returns current status of this printer
+     * @returns {"error" | "printing" | "idle" | "preparing"}
+    */
+    async getStatus();
+
+    /**
+     * Starts printing of file, specified by filename or path. Throws error if printer is busy or cant print file.
+     * @param {string} filename
+     */
+    async printPDF(filename);
+}
+```
 ## TODO
 - test on UNIX based OS
 - implement advanced status checking of specific document
+

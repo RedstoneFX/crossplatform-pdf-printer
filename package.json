@@ -2,6 +2,14 @@
   "name": "crossplatform-pdf-printer",
   "version": "1.0.0",
   "description": "NodeJS library to send pdf files to printer on Winwdows and UNIX.",
+    "homepage": "https://github.com/RedstoneFX/crossplatform-pdf-printer#readme",
+  "bugs": {
+    "url": "https://github.com/RedstoneFX/crossplatform-pdf-printer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedstoneFX/crossplatform-pdf-printer.git"
+  },
   "keywords": [
     "crossplatform",
     "UNIX",
